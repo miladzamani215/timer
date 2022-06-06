@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Vazir" !important;
+}
+body{
+    background-color: #333;
+}
+html{
+    direction: rtl;
+}
+.contaner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.start-box{
+    margin: 25px 0;
+}
+.start-box  #input-counter{
+    padding: 7px;
+    width: 300px;
+    outline-color: white;
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
+.start-box  #btn-counter{
+    padding: 7px 10px;
+    border: none;
+    cursor: pointer;
+    color:white;
+    background-color: #e74c3c;
+    border-radius: 2px;
+}
+.c100{
+    display: none;
+}
+.erorr{
+    display: none;
+    margin: 15px;
+    font-size: 1.1rem;
+    color:#e74c3c;
+}
+.massage{
+    margin: 25px;
+    font-size: 0.9rem;
+}
+.looding{
+    color: #e74c3c;
+    display: none;
+}
+.sucsess{
+    color:#27ae60;
+    display: none;
+}
+.active{
+    display: block;
+}
+.disable{
+    display: none;
+}
